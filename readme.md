@@ -13,6 +13,9 @@
 
 API com operações CRUD utilizando `FastApi` e banco de dados ``Postgres`` com a orm `sqlachemy`.
 
+![Documentação da API de Cursos](API%20de%20Cursos.png)
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
