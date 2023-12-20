@@ -31,6 +31,6 @@ async def get_curso(db: AsyncSession = Depends(get_session)):
     async with db as session:
         query = select(CursoModel)
         result = await session.execute(query)
-        curso = List[CursoModel] = result.scalars().all()
+        cursos: List[CursoModel] = result.scalars().all()
 
     return cursos
